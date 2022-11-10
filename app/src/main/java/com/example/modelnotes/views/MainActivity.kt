@@ -1,11 +1,12 @@
-package com.example.modelnotes
+package com.example.modelnotes.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.modelnotes.R
 
-class NoteAdd : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_note_add)
+        setContentView(R.layout.activity_main)
     }
 }
