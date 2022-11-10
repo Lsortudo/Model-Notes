@@ -3,9 +3,22 @@
     <!-- Cores principais que vou utilizar -->
     <color name="primaryAppColor">#252525</color>
     <color name="secondaryAppColor">#3b3b3b</color>
+    <!-- Cores principais que vou utilizar -->
 
 
-    <!-- Others colors. -->
+    <!-- Card colors. -->
+    <color name="noteColor1">#D1C8E1</color>
+    <color name="noteColor2">#E8C7DE</color>
+    <color name="noteColor3">#BCAF9C</color>
+    <color name="noteColor4">#DE541E</color>
+    <color name="noteColor5">#DBD3D8</color>
+    <color name="noteColor6">#94BFA7</color>
+    <color name="noteColor7">#280003</color>
+    <color name="noteColor8">#88D9E6</color>
+    <color name="noteColor9">#FFF7AE</color>
+    <!-- Card colors. -->
+
+    <!-- Android colors. -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -13,4 +26,5 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Android colors. -->
 </resources>
