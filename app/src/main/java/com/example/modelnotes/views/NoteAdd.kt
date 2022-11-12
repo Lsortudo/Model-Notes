@@ -31,6 +31,9 @@ class NoteAdd : AppCompatActivity() {
         try {
             oldNote = intent.getSerializableExtra("current_note") as Note
             binding.etTitle.setText(oldNote.title)
+            //Bellow to retrieve data from my TextView on MainActivity see more on NoteAdapter
+            binding.etDesc.setText(oldNote.note)
+
             isUpdateBoolean = true
         } catch (e: Exception) {
             e.printStackTrace()

@@ -9,6 +9,7 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.modelnotes.R
 import com.example.modelnotes.model.Note
+import org.w3c.dom.Text
 import kotlin.random.Random
 
 class NoteAdapter(private val context: Context, val listener: NoteClickListener) :
@@ -28,6 +29,9 @@ class NoteAdapter(private val context: Context, val listener: NoteClickListener)
 
         holder.title.text = currentNote.title
         holder.title.isSelected = true
+
+        //Bellow to retrieve data from my TextView on MainActivity see more on NoteAdd
+        holder.tvNote.text = currentNote.note
 
         holder.date.text = currentNote.date
         holder.date.isSelected = true
@@ -96,6 +100,8 @@ class NoteAdapter(private val context: Context, val listener: NoteClickListener)
         val notes_layout = itemView.findViewById<CardView>(R.id.cardLayout)
         val title = itemView.findViewById<TextView>(R.id.tvTitle)
         val date = itemView.findViewById<TextView>(R.id.tvDate)
+        //Bellow to retrieve data from my TextView on MainActivity see more on NoteAdd
+        val tvNote = itemView.findViewById<TextView>(R.id.tvNote)
     }
 
     interface NoteClickListener {
