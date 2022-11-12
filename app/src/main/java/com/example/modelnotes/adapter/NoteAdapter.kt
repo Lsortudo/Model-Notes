@@ -99,12 +99,8 @@ class NoteAdapter(private val context: Context, val listener: NoteClickListener)
     }
 
     interface NoteClickListener {
-        fun onItemClicked(note: Note) {
+        fun onItemClicked(note: Note)
 
-        }
-
-        fun onLongItemClicked(note: Note, cardView: CardView) {
-
-        }
+        fun onLongItemClicked(note: Note, cardView: CardView)
     }
 }
