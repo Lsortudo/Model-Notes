@@ -33,6 +33,7 @@ class NoteAdd : AppCompatActivity() {
             binding.etTitle.setText(oldNote.title)
             //Bellow to retrieve data from my TextView on MainActivity see more on NoteAdapter
             binding.etDesc.setText(oldNote.note)
+            binding.tvDate.setText(oldNote.date)
 
             isUpdateBoolean = true
         } catch (e: Exception) {
