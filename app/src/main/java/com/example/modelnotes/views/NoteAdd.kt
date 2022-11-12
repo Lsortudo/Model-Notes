@@ -40,7 +40,8 @@ class NoteAdd : AppCompatActivity() {
             val noteDesc = binding.etDesc.text.toString()
 
             if (title.isNotEmpty() || noteDesc.isNotEmpty()) {
-                val formatter = SimpleDateFormat("EEE, d MMM yyyy HH:mm a")
+                //val formatter = SimpleDateFormat("EEE, d MMM yyyy HH:mm a")
+                val formatter = SimpleDateFormat("EEE, d MMM yyyy")
 
                 if (isUpdateBoolean) {
                     note = Note(

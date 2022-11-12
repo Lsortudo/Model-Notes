@@ -81,7 +81,7 @@
         android:ems="10"
         android:gravity="top"
         android:hint="Digita uma coisa ai pô..."
-        android:inputType="textPersonName"
+        android:inputType="textMultiLine"
         android:lineSpacingMultiplier="1.9"
         android:textColorHint="@color/secondaryAppColor"
         android:textSize="20sp"
