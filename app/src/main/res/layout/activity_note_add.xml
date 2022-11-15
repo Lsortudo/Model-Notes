@@ -14,6 +14,7 @@
         android:background="@color/primaryAppColor"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -75,9 +76,9 @@
     <TextView
         android:id="@+id/tv_Date"
         android:layout_width="0dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:textSize="16sp"
-        android:textColor="@color/white"
+        android:textColor="#F9EBE0"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="@id/etTitle"
         app:layout_constraintStart_toStartOf="@id/etTitle"
@@ -89,7 +90,7 @@
         android:id="@+id/etDesc"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:background="@null"
         android:ems="10"
         android:gravity="top"
